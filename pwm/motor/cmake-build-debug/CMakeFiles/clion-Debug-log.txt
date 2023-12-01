@@ -1,0 +1,13 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /tmp/tmp.kma0BYzkTN -B /tmp/tmp.kma0BYzkTN/cmake-build-debug
+CMake Error at CMakeLists.txt:4 (cmake_minimum_required):
+  CMake 3.25 or higher is required.  You are running version 3.22.1
+
+
+-- Configuring incomplete, errors occurred!
+
+无法获取编译器信息:
+	编译器退出，错误代码 127: C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe -xc -DDEBUG -DSTM32F405xx -DUSE_HAL_DRIVER -g -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11 -fpch-preprocess -v -dD -E
+	bash: line 1: cd: \tmp\tmp.kma0BYzkTN\cmake-build-debug: No such file or directory
+	bash: line 1: /root/C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe: No such file or directory
+	
+	
